@@ -16,4 +16,4 @@ jobs:
       - name: install nsis
         run: |
           curl -O -L https://downloads.sourceforge.net/project/nsis/NSIS%203/3.06.1/nsis-3.06.1-setup.exe
-          nsis-3.06.1-setup.exe /S
+          ./nsis-3.06.1-setup.exe /S
