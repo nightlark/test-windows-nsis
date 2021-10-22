@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Run nsis
-        run: nsis --version
+        run: makensis /LICENSE
